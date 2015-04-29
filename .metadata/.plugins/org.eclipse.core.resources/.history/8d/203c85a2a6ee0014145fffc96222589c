@@ -39,7 +39,7 @@
 	<bean class="intro.InitHelloWorld" />
 	
 	<!-- Definition for javaCollection -->
-   <bean id="javaCollection" class="intro.JavaCollection">
+   <bean id="javaCollection" class="com.tutorialspoint.JavaCollection">
 
       <!-- results in a setAddressList(java.util.List) call -->
       <property name="addressList">
